@@ -1,0 +1,30 @@
+# Compiled Object files, Static and Dynamic libraries (Shared Objects)
+*.o
+*.a
+*.so
+
+# Compiled Go files
+*.exe
+*.test
+*.prof
+
+# Compiled binaries
+bin/
+
+# Generated files and directories
+/vendor/
+/Godeps/
+/_workspace/
+/.idea/
+
+# Output of the go coverage tool
+*.out
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
